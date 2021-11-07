@@ -1,0 +1,132 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(../images/bg-pattern-bottom.svg), url(../images/bg-pattern-bottom.svg);
+    background-position: left top -200px, right bottom -200px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 500px 500px, 500px 500px;
+    background-size: contain cover;
+    
+    
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+span {
+    display: inline-block;
+}
+
+.card {
+    background-color: #fff;
+    /* height: 75vh; test */
+    width: 90%;
+    max-width: 337.68px;
+    margin: 10rem auto;
+    border-radius: 1rem;
+    position: relative;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.bg-container {
+    background-image: url(../images/bg-pattern-card.svg);
+    height: 30vh;
+    background-size: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.victor-image-container {
+    text-align: center;
+    position: absolute;
+    top: 22vh;
+    left: 34.30%;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.victor-image {
+    border-radius: 100%;
+    border: 5px solid #fff;
+}
+
+.victor-content {
+    margin: 8rem auto 4rem;
+    text-align: center;
+}
+
+.victor-fullname {
+    color: hsl(229, 23%, 23%);
+    margin-bottom: 1rem;
+}
+
+.victor-location {
+    font-size: 1.2rem;
+}
+
+.grey {
+    color: hsl(0, 0%, 59%);
+}
+
+.test {
+    color: hsl(185, 75%, 39%);
+    color: hsl(229, 23%, 23%);
+    color: hsl(227, 10%, 46%);
+    color: hsl(0, 0%, 59%);
+}
+
+.ratings {
+    border-top: 1px solid rgba(150, 150, 150, 0.3);
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+}
+
+.ratings-followers {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* .ratings-followers + .ratings-followers {
+    margin-left: 2rem;
+} */
+
+.number {
+    align-self: center;
+    margin-bottom: .1rem;
+}
+
+.title {
+    font-size: 1rem;
+    /* letter-spacing: .2rem; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
